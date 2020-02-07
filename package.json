@@ -18,7 +18,8 @@
   },
   "homepage": "https://github.com/Nabucodono5or/api_servidor_warframe#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "warframe-items": "^1.815.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.2"
