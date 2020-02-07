@@ -1,0 +1,26 @@
+{
+  "name": "api_servidor_warframe",
+  "version": "1.0.0",
+  "description": "servidor da api warframe",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nabucodono5or/api_servidor_warframe.git"
+  },
+  "author": "Jefferson Abreu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nabucodono5or/api_servidor_warframe/issues"
+  },
+  "homepage": "https://github.com/Nabucodono5or/api_servidor_warframe#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
