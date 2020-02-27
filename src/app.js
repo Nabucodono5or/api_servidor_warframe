@@ -1,5 +1,6 @@
 const express = require("express");
 const app = express();
+const cors = require("cors");
 
 const Items = require("warframe-items");
 
@@ -26,6 +27,8 @@ const enemy = new Items({ category: ["Enemy"] });
 // const resources = new Items({ category: ["Resources"] });
 // const sigils = new Items({ category: ["Sigils"] });
 // const skins = new Items({ category: ["Skins"] });
+
+app.use(cors());
 
 app.get("/api/warframe/", (req, res) => {
   res.send(all);
